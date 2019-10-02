@@ -2,15 +2,52 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.care">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/Care"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".home.Home"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Register"></activity>
+        <activity
+            android:name=".home.Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Support"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.MyBenefits"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Calendar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Claims"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Medications"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.MyDoctors"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.MyHealth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HealthTribe"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HealthJourney"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

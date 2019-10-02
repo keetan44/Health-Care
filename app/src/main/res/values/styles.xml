@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <item name="android:editTextColor">#FFF</item>
+        <item name="queryHint">@string/query</item>
+        <item name="android:textColorSecondary">#FFF</item>
+        <item name="android:textColorHint">#FFF</item>
+    </style>
+
 </resources>

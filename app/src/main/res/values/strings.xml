@@ -1,5 +1,14 @@
 <resources>
     <string name="Care">Care</string>
-    <string name="drawer_open">drawer open</string>
-    <string name="drawer_close">drawer close</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="query">Search</string>
+
+
+    <string name="lab">Would you like us to obtain your medical records from any of lab portals listed below?\n\nThis simply means we\'ll put them in your account so  you can view them at anytime.\n\nSelect the lab from the drop down below to get started.</string>
+
+    <string-array name="labs">
+        <item>Select lab portal</item>
+    </string-array>
+
 </resources>

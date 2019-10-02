@@ -25,7 +25,7 @@
         <EditText
             android:id="@+id/email"
             android:textSize="25dp"
-            android:background="#000"
+            android:background="@drawable/round_edit_box_login"
             android:textColor="#FFF"
             android:gravity="center"
             android:inputType="text"
@@ -51,7 +51,7 @@
         <EditText
             android:id="@+id/password"
             android:inputType="textPassword"
-            android:background="#000"
+            android:background="@drawable/round_edit_box_login"
             android:gravity="center"
             android:textColor="#FFF"
             android:textSize="25dp"
